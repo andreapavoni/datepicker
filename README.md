@@ -1,11 +1,13 @@
-# Datepicker
+# Vue Bulma Datepicker (Alternative)
 
-Datepicker component is based on [flatpickr](https://github.com/chmln/flatpickr) for Vue Bulma.
+A fork of [Vue Bulma Datepicker](https://github.com/vue-bulma/datepicker) based on [flatpickr](https://github.com/chmln/flatpickr). It follows Bulma versions and fixes some minor bugs from the original version. I had to fork the original project because I needed a quick fix.
 
 ## Installation
 
+**Update: 2017-03-24: it's not yet published on NPM repository, so for the moment, just add the github repo as source.** 
+
 ```
-$ npm install vue-bulma-datepicker --save
+$ npm install vue-bulma-datepicker-alt --save
 ```
 
 ## Examples
