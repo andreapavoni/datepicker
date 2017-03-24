@@ -1,9 +1,5 @@
 <template>
-  <div class="field">
-    <p class="control is-expanded">
-      <input class="input" :class="inputClass" type="text" :placeholder="placeholder" :readonly="readonly" v-model="date"/>
-    </p>
-  </div>
+  <input class="input" :class="inputClass" type="text" :placeholder="placeholder" :readonly="readonly" v-model="date"/>
 </template>
 
 <script>
