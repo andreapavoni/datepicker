@@ -10,8 +10,13 @@ import BaseInput from './BaseInput'
 import SingleInput from './SingleInput'
 import WrapperInput from './WrapperInput'
 
-function Datepicker (selector, config, l10n) {
-  this.l10n = Object.assign({}, Flatpickr.prototype.l10n, l10n)
+
+function Datepicker (selector, config) {
+  if (config.locale) {
+    Flatpickr.l10ns[`${config.locale}`] = require(`../../flatpickr/dist/l10n/${config.locale}.js`)[`${config.locale}`]
+    Flatpickr.localize(Flatpickr.l10ns[`${config.locale}`]);
+  }
+
   return Flatpickr.call(this, selector, config)
 }
 
@@ -33,7 +38,7 @@ export default {
 
   mounted () {
     if (!this.datepicker) {
-      this.datepicker = new Datepicker(this.$el, this.config, this.l10n)
+      this.datepicker = new Datepicker(this.$el, this.config)
       this.popupItem = this.datepicker.calendarContainer
     }
   },

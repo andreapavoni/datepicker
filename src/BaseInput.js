@@ -5,10 +5,6 @@ export default {
       type: Object,
       default: () => ({})
     },
-    l10n: {
-      type: Object,
-      default: () => ({})
-    },
     placeholder: {
       type: String,
       default: 'Pick date'
@@ -19,7 +15,7 @@ export default {
     },
     value: String
   },
-  
+
   computed: {
     date: {
       get() {

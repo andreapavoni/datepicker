@@ -1,6 +1,6 @@
 {
   "name": "vue-bulma-datepicker-alt",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Alternative datepicker component for Vue Bulma",
   "main": "src/index.vue",
   "peerDependencies": {
