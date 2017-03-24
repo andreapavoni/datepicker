@@ -1,10 +1,10 @@
 {
-  "name": "vue-bulma-datepicker",
-  "version": "1.3.0",
-  "description": "Datepicker Component for Vue Bulma",
+  "name": "vue-bulma-datepicker-alt",
+  "version": "0.4.0",
+  "description": "Alternative datepicker component for Vue Bulma",
   "main": "src/index.vue",
   "peerDependencies": {
-    "bulma": ">=0.2",
+    "bulma": ">=0.4.0",
     "vue": ">=2"
   },
   "repository": "andreapavoni/datepicker",
@@ -16,7 +16,7 @@
     "vue-bulma-datepicker",
     "datepicker"
   ],
-  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "author": "Andrea Pavoni <andrea.pavoni@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "flatpickr": "2.4.2"
