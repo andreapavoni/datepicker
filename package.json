@@ -7,7 +7,7 @@
     "bulma": ">=0.4.0",
     "vue": ">=2"
   },
-  "repository": "andreapavoni/datepicker",
+  "repository": "andreapavoni/vue-bulma-datepicker-alt",
   "keywords": [
     "vue",
     "bulma",
